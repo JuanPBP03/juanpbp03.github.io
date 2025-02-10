@@ -32,7 +32,7 @@ defaults:
       permalink: "/:basename/"
 
 #setup
-url: "https://www.juanpbp03.github.io"
+url: "https://juanpbp03.github.io/about"
 baseurl: ""  # Leave this blank unless you're using a subdirectory
 
 collections_dir: collections
