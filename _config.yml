@@ -59,7 +59,5 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/juanpbp"
-    - label: "Phone"
-      icon: "fas fa-fw fa-phone-square"
-      url: "(647)-201-8034"
+      
       
