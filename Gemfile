@@ -8,15 +8,15 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "jekyll"
 gem "jekyll-include-cache"
-gem "github-pages", group: :jekyll_plugins
+
 # If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-remote-theme"
+gem "jekyll-feed", "~> 0.12"
+gem "jekyll-remote-theme"
   
   
-end
+
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
