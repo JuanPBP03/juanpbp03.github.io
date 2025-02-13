@@ -1,3 +1,6 @@
+sass:
+  quiet_deps: true
+
 #includes
 include: [_pages]
 
@@ -6,7 +9,7 @@ title: Into My Mind
 email: juanpablobecerra103@gmail.com
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -20,9 +23,12 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       author_profile: true
       read_time: true
-    # _pages
+      share: true
+      related: true
+  # _pages
 
   - scope:
       path: "_pages"

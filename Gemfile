@@ -13,8 +13,9 @@ gem "jekyll-include-cache"
 
 # If you have any plugins, put them here!
 gem "jekyll-feed", "~> 0.12"
-gem "jekyll-remote-theme"
-  
+gem "minimal-mistakes-jekyll"
+
+
   
 
 
