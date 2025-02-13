@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Welcome to My Portfolio"
 permalink: /
 header:

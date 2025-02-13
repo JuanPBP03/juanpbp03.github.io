@@ -55,7 +55,7 @@ analytics:
 
 author:
   name     : "Juan Pablo Becerra-Padilla"
-  avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "/assets/images/author-photo.jpg"
   bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Mississauga, Ontario"
   links:
