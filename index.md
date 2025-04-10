@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Welcome to My Portfolio"
+title:
 permalink: /
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: 
   overlay_filter: 0 # Adjust darkness (0 = none, 1 = full black)
   caption: "Your tagline or intro text here."
 ---
+# 🚧🚧 Under Construction 🚧🚧
 
 <section class="latest-posts">
   <h2>Latest Posts</h2>
