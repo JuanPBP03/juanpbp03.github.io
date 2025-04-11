@@ -61,9 +61,12 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "juanpablobecerra103@gmail.com"
+      url: "https://juanpbp03.github.io/contact"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/juanpbp"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JuanPBP03"
       
       
