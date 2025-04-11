@@ -38,14 +38,13 @@ defaults:
       permalink: "/:basename/"
 
 #setup
-url: "https://juanpbp03.github.io/about"
+url: "https://juanpbp03.github.io/"
 baseurl: ""  # Leave this blank unless you're using a subdirectory
 
-collections_dir: collections
 collections:
-  projects:
+  portfolio:
     output: true
-    permalink: /projects/:path/
+    permalink: /:collection/:path/
 
 analytics:
   provider: "google-gtag"
@@ -56,17 +55,17 @@ analytics:
 author:
   name     : "Juan Pablo Becerra-Padilla"
   avatar   : "/assets/images/author-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
+  bio      : "Somewhere between control systems and controlled chaos."
   location : "Mississauga, Ontario"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://juanpbp03.github.io/contact"
+      url: "/contact/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/juanpbp"
+      url: "https://www.linkedin.com/in/juanpbp/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/JuanPBP03"
+      url: "https://github.com/JuanPBP03/"
       
       

@@ -1,5 +1,8 @@
 ---
 layout: collection
 title: "Portfolio"
-collection: projects
+collection: portfolio
+permalink: /portfolio/
+entries_layout: grid
+classes: wide
 ---

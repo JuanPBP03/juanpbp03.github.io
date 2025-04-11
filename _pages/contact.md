@@ -17,7 +17,7 @@ If you'd like to get in touch, feel free to send me a message using the form bel
     <input type="email" name="Reply to:" id="_replyto" required><br><br>
 
   <label for="message">Message:</label><br>
-    <textarea name="message" id="message" rows="5" required></textarea><br><br>
+    <textarea name="Message: " id="message" rows="5" required></textarea><br><br>
     
   <input name="Subject:" id="form-subject" type="hidden" value="none" />
   <input type="submit" value="Send">
