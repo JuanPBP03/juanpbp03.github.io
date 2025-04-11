@@ -23,7 +23,7 @@ header:
 I’ve always been drawn to learning and figuring things out. As a kid, I was fascinated by anything that explained how the world worked. Watching *Bill Nye the Science Guy* made science feel exciting and hands-on, and that curiosity stuck with me. Whether it was computers, machines, or random scientific concepts, I always wanted to know more and I was surrounded by problem-solvers&mdash;people who built things, worked on projects, and tackled challenges head on.
 
 ### Discovering Engineering 
-In my high school computer engineering class, we weren’t just handed instructions&mdash;we had the freedom to experiment, to build with whatever materials were on hand, and to approach problems in our own way. We made all kinds of projects: a **line-following car, a small robotic arm, and even an elastic-band-powered propeller vehicle that rode on a string**. We learned to solder, build circuits, program, and maybe most importantly, to harness our creativity, all under the guidance of a rambunctious and unforgettable teacher.  
+In my high school computer engineering class, we weren’t just handed instructions&mdash;we had the freedom to experiment, to build with whatever materials were on hand, and to approach problems in our own way. We made all kinds of projects: a **line-following car, a model home security system, or even a small robotic arm.** We learned to solder, build circuits, program, and maybe most importantly, to harness our creativity, all under the guidance of a rambunctious and unforgettable teacher.  
 
 That experience cemented my love for problem-solving and creating. It wasn’t just about what we built—it was about the process, the freedom to explore, and the excitement of making something work.  
 
