@@ -1,8 +1,10 @@
 ---
 layout: collection
-title: "Portfolio"
+title: Portfolio
 collection: portfolio
 permalink: /portfolio/
-entries_layout: grid
-classes: wide
+author_profile: true
 ---
+
+# INFO: Site under construction
+{: .notice--info}

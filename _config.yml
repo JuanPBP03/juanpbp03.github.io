@@ -13,12 +13,12 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 minimal_mistakes_skin: "dark"
 
 #default configs
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -28,7 +28,8 @@ defaults:
       read_time: true
       share: true
       related: true
-  # _pages
+      show_date: true
+      published: false
 
   - scope:
       path: "_pages"
@@ -37,7 +38,52 @@ defaults:
       layout: single
       permalink: "/:basename/"
 
+  - scope: 
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      breadcrumbs: true
+      show_date: true
+      published: false
+
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: true
+
+
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    tag: /tags/:name/
+
+
+
+
+
+
+
+
+
+
 #setup
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
 url: "https://juanpbp03.github.io/"
 baseurl: ""  # Leave this blank unless you're using a subdirectory
 
