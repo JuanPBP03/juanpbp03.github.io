@@ -30,7 +30,7 @@ Now, as an **engineering student at Humber Polytechnic**, I’ve continued leani
 
 But, engineering isn’t just a degree or a career I'm working towards. I believe that engineering is a way of life that shapes the way I move through the world. It shows up in how I break down problems, look for patterns, think in systems, and constantly try to improve&mdash;all driven by endless curiosity. 
 
-Outside of school, I enjoy building computers, making music, and exploring visual arts. I also enjoy spending time outdoors, trying new things, and learning about language and how people think. I’m happiest when I’m around likeminded people who are curious, driven, and excited about what they do.
+Outside of school, I enjoy building computers, making music, exploring visual arts, and playing both board and video games. I also enjoy spending time outdoors, trying new things, and learning about language and how people think. I’m happiest when I’m around likeminded people who are curious, driven, and excited about what they do.
 
 ## Purpose of This Website 
 Talking about yourself always feels a bit strange, but I wanted to build this site into a space that shows the connection between what I care about and what I build, a way to **document my journey, organize my thoughts, and build something that grows with me**. It’s a mix of technical explorations, personal reflections, and anything else I find worth sharing.   
