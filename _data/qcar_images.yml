@@ -1,0 +1,19 @@
+- image_path: /assets/images/qcar/lab1_pid.png
+  alt: "PID controller damped response"
+  title: "Speed control using PID (damped response)"
+
+- image_path: /assets/images/qcar/lab2_stanley.png
+  alt: "Stanley controller path following"
+  title: "Stanley controller tracking a curved path"
+
+- image_path: /assets/images/qcar/lab3_lidar.png
+  alt: "LiDAR Occupancy Grid"
+  title: "Occupancy grid mapping with LiDAR scans"
+
+- image_path: /assets/images/qcar/lab4_ekf.png
+  alt: "EKF state estimation"
+  title: "EKF vs Dead Reckoning for position estimation"
+
+- image_path: /assets/images/qcar/lab5_lanedetection.png
+  alt: "Lane detection result"
+  title: "Lane detection using OpenCV"
