@@ -2,7 +2,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,git,windows,ruby
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,git,windows,ruby
 
