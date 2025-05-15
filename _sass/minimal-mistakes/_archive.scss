@@ -125,9 +125,27 @@
    ========================================================================== */
 
 .list__item {
+
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
+  }
+
+  .archive__item-teaser {
+      aspect-ratio: 4/3;
+      overflow: hidden;
+    
+    @include breakpoint($small) {
+      max-height: 200px;
+      width: span(5 of 12);
+
+    }
+
+    @include breakpoint($medium) {
+      max-height: 120px;
+      width: span(3 of 12);
+    }
+    
   }
 }
 
