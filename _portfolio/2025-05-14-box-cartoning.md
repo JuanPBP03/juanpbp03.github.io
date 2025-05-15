@@ -1,5 +1,14 @@
 ---
 title: Autonomous Box Cartoning Machine
+tags:
+  - control
+  - firmware
+  - programming
+  - pneumatics
+  - electronics
+  - wiring
+  - video
+
 header:
   video:
     id: 1nnGwnFD8Xu8tv5LKCi4SV5Wn84-GdKqO

@@ -14,6 +14,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-tagories
 minimal_mistakes_skin: "dark"
 
 #default configs
@@ -50,25 +51,25 @@ defaults:
       show_date: true
       published: false
 
-  - scope:
-      path: ""
-      type: tag
-    values:
-      author_profile: true
 
 
+category_archive:
+  type: jekyll-archives
+  path: /categories/
 tag_archive:
   type: jekyll-archives
   path: /tags/
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    tag: /tags/:name/
 
+jekyll-archives:
+    enabled:
+      - categories
+      - tags
+    layouts:
+      category: archive-taxonomy
+      tag: archive-taxonomy
+    permalinks:
+      category: categories/:name/
+      tag: tags/:name/
 
 
 
