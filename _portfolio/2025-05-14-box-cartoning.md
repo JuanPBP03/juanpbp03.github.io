@@ -89,4 +89,4 @@ Year 2 capstone project showcasing the design and development of an autonomous b
 
 # Control Flow
 
-{% include figure popup=true image_path="assets\images\box-erector\Diagrams\flowchart.png" alt="control flow chart" %}
+{% include figure popup=true image_path="assets/images/box-erector/Diagrams/flowchart.png" alt="control flow chart" %}
