@@ -1,10 +1,16 @@
 ---
 layout: splash
 title: "Welcome to my website!"
+tagline: This site is powered by Jekyll, hosted  on GitHub Pages, and customized with Markdown, YAML, HTML, and Liquid, all version-controlled and deployed with GitHub Actions.
 permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
+  actions:
+    - label: Click here to see the site repo!
+      url: github.com/juanpbp03/juanpbp03.github.io
 ---
+
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <section class="latest-posts">

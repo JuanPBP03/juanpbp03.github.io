@@ -11,11 +11,11 @@ tags:
   - 3D printing
   - CAD
 
-
 header:
   video:
     id: AsKs-BzIaOA
     provider: youtube
+  teaser: assets/images/box-erector/pics/top-labelled.png
     
 cad:
   - url: /assets/images/box-erector/CAD/first-design.PNG
