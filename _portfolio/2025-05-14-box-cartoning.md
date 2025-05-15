@@ -8,7 +8,8 @@ tags:
   - electronics
   - wiring
   - video
-
+toc: true
+toc_sticky: true
 header:
   video:
     id: 1nnGwnFD8Xu8tv5LKCi4SV5Wn84-GdKqO

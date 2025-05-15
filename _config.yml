@@ -31,6 +31,7 @@ defaults:
       related: true
       show_date: true
       published: false
+      permalink: :categories/:title
 
   - scope:
       path: "_pages"
@@ -50,12 +51,26 @@ defaults:
       breadcrumbs: true
       show_date: true
       published: false
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: tag
+    values:
+      breadcrumbs: true
+      title: "tag"
+  - scope:
+      path: ""
+      type: category
+    values:
+      title: "category"
+      breadcrumbs: true
 
-
+breadcrumbs: true
 
 category_archive:
   type: jekyll-archives
-  path: /categories/
+  path: categories/
 tag_archive:
   type: jekyll-archives
   path: /tags/
