@@ -4,5 +4,5 @@ title: Blog
 author_profile: true
 permalink: /blog/
 ---
-# INFO: Site under construction, content will be added soon :)
+# INFO: Check back here for posts soon :)
 {: .notice--info}
