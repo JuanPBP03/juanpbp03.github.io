@@ -9,7 +9,6 @@ title: Into My Mind
 email: juanpablobecerra103@gmail.com
 
 # Build settings
-theme: minimal-mistakes-jekyll 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
