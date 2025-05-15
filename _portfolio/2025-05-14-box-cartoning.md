@@ -14,8 +14,9 @@ tags:
 
 header:
   video:
-    id: 1nnGwnFD8Xu8tv5LKCi4SV5Wn84-GdKqO
-    provider: google-drive
+    id: AsKs-BzIaOA
+    provider: youtube
+    
 cad:
   - url: /assets/images/box-erector/CAD/first-design.png
     image_path: /assets/images/box-erector/CAD/first-design.png

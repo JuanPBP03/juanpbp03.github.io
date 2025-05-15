@@ -489,6 +489,9 @@ a.reversefootnote {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  aspect-ratio: 16/9;
+  pointer-events: none;
+
 
   iframe,
   object,
@@ -496,8 +499,9 @@ a.reversefootnote {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 300%;
     height: 100%;
+    margin-left: -100%;
   }
 }
 
