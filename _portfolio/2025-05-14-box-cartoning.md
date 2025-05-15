@@ -54,20 +54,20 @@ diagrams:
     alt: "Relay/solenoid valve wiring diagrm"
     title: "Relay/DCV wiring diagram"
 
-  - url: assets\images\box-erector\Diagrams\wiring-diagram-servo.png
-    image_path: assets\images\box-erector\Diagrams\wiring-diagram-servo.png
+  - url: assets/images/box-erector/Diagrams/wiring-diagram-servo.png
+    image_path: assets/images/box-erector/Diagrams/wiring-diagram-servo.png
     alt: "Servo motor wiring diagram"
     title: "Servo motor wiring diagram (identical for each motor)"
 
 pics:
-  - url: assets\images\box-erector\pics\basic-wiring.png
-    image_path: assets\images\box-erector\pics\basic-wiring.png
+  - url: assets/images/box-erector/pics/basic-wiring.png
+    image_path: assets/images/box-erector/pics/basic-wiring.png
   
-  - url: assets\images\box-erector\pics\initial-mounting.png
-    image_path: assets\images\box-erector\pics\initial-mounting.png
+  - url: assets/images/box-erector/pics/initial-mounting.png
+    image_path: assets/images/box-erector/pics/initial-mounting.png
   
-  - url: assets\images\box-erector\pics\top-labelled.png
-    image_path: assets\images\box-erector\pics\top-labelled.png
+  - url: assets/images/box-erector/pics/top-labelled.png
+    image_path: assets/images/box-erector/pics/top-labelled.png
 
 published: true
 ---
