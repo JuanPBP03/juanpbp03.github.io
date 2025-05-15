@@ -21,7 +21,7 @@ header:
 I’ve always been drawn to learning and figuring things out. As a kid, I always wanted a chemistry kit, got way too into Bill Nye the Science Guy, and would take things apart just to see what was inside. Whether it was computers, machines, or the world around me, I always wanted to understand things more deeply and I was lucky to be surrounded by people who encouraged that curiosity.
 
 ### Discovering Engineering 
-In my high school computer engineering class, we weren’t just handed instructions, we had the freedom to experiment, to build with whatever materials were on hand, and to approach problems in our own way. We made all kinds of projects: a line-following car, a mock home security system, or a small robotic arm. We learned to solder, build circuits, program, and, maybe most importantly, to harness our creativity.
+In my high school computer engineering class, we weren’t just handed instructions&mdash;we had the freedom to experiment, to build with whatever materials were on hand, and to approach problems in our own way. We made all kinds of projects: a **line-following car, a small robotic arm, and even an elastic-band-powered propeller vehicle that rode on a string**. We learned to solder, build circuits, program, and maybe most importantly, to harness our creativity, all under the guidance of a rambunctious and unforgettable teacher.  
 
 That experience cemented my love for problem-solving and creating. It wasn’t just about what we built. It was about the process, the freedom to explore, and the excitement of making something work.  
 
