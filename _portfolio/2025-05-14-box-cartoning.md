@@ -3,13 +3,15 @@ title: Autonomous Box Cartoning Machine
 tags:
   - control
   - firmware
-  - programming
+  - embedded
   - pneumatics
   - electronics
-  - wiring
-  - video
-toc: true
-toc_sticky: true
+  - C/C++
+  - SolidWorks
+  - 3D printing
+  - CAD
+
+
 header:
   video:
     id: 1nnGwnFD8Xu8tv5LKCi4SV5Wn84-GdKqO
