@@ -1,40 +1,21 @@
 ---
 layout: splash
 title: "Welcome to my website!"
-tagline: This site is powered by Jekyll, hosted  on GitHub Pages, and customized with Markdown, YAML, HTML, and Liquid, all version-controlled and deployed with GitHub Actions.
+tagline: "This site is powered by Jekyll, hosted  on GitHub Pages, and customized with Markdown, YAML, HTML, and Liquid, all version-controlled and deployed with GitHub Actions."
 permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
     - label: Click here to see the site repo!
-      url: github.com/juanpbp03/juanpbp03.github.io
+      url: https://github.com/juanpbp03/juanpbp03.github.io
 ---
 
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<section class="latest-posts">
-  <h2>Latest Posts</h2>
-  <ul>
-    {% for post in site.posts limit:3 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p>{{ post.date | date: "%B %d, %Y" }}{{ post.excerpt }}</p>
-        <p></p>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="latest-projects">
-  <h2>Latest Projects</h2>
-  <ul>
-    {% for project in site.portfolio limit:3 %}
-      <li>
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-        <p>{{ project.date | date: "%B %d, %Y" }}{{ project.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
+# Latest Uploads
+{: .text-center}
+--- 
+{% assign docs = site.documents %}
+<div class="entries-grid">
+{%- for post in docs limit: 6-%}
+  {% include archive-single.html type="grid" %}
+{%- endfor -%}
+</div>

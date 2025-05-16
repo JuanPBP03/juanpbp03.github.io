@@ -132,8 +132,8 @@
   }
 
   .archive__item-teaser {
-      aspect-ratio: 4/3;
-      overflow: hidden;
+    aspect-ratio: 4/3;
+    overflow: hidden;
     
     @include breakpoint($small) {
       max-height: 200px;
@@ -242,12 +242,13 @@
   }
 
   .archive__item-teaser {
+    aspect-ratio: 4/3;
     @include breakpoint($small) {
-      max-height: 200px;
+      height: auto;
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
+      height: auto;
     }
   }
 }
