@@ -19,12 +19,12 @@ header:
     
 cad:
   - url: /assets/images/box-erector/CAD/first-design.PNG
-    image_path: /assets/images/box-erector/CAD/first-design.png
+    image_path: /assets/images/box-erector/CAD/first-design.PNG
     alt: "First CAD design"
     title: "Initial CAD Layout"
 
   - url: /assets/images/box-erector/CAD/AStudio-model.PNG
-    image_path: /assets/images/box-erector/CAD/AStudio-model.png
+    image_path: /assets/images/box-erector/CAD/AStudio-model.PNG
     alt: "Automation Studio diagram"
     title: "Pneumatic Control Simulation in Automation Studio"
 
