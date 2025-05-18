@@ -14,6 +14,8 @@ header:
       url: /blog/
     - label: Contact Me
       url: /contact/
+toc: true
+toc_sticky: true
 --- 
 
 # My Journey

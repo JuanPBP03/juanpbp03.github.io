@@ -6,8 +6,11 @@ permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
-    - label: Click here to see the site repo!
+    - label: View on GitHub
       url: https://github.com/juanpbp03/juanpbp03.github.io
+    - label: Download My Resume
+      url: /assets/files/JuanPBP-Resume.pdf
+
 ---
 
 # Latest Uploads
