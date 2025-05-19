@@ -10,15 +10,29 @@ header:
       url: https://github.com/juanpbp03/juanpbp03.github.io
     - label: Download My Resume
       url: /assets/files/JuanPBP-Resume.pdf
+---
+# Latest Posts
+---
+{: .text-center}
+
+<section class="grid__wrapper">
+  <div class="entries-grid" style="clear: both; overflow: hidden;">
+    {% for post in site.posts limit: 4 %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+</section>
+
+# Latest Projects
 
 ---
 
-# Latest Uploads
-{: .text-center}
---- 
-{% assign docs = site.documents %}
-<div class="entries-grid">
-{%- for post in docs limit: 6-%}
-  {% include archive-single.html type="grid" %}
-{%- endfor -%}
-</div>
+<section class="grid__wrapper">
+  <div class="entries-grid" style="clear: both; overflow: hidden;">
+    {% for post in site.portfolio limit: 4 %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+</section>
+
+
