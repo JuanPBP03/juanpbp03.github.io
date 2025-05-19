@@ -12,10 +12,8 @@ gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-feed", "~> 0.12"
-  gem "minimal-mistakes-jekyll"
   gem "jekyll-archives"
   gem "jekyll-tagories"
-  gem "classifier-reborn"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
