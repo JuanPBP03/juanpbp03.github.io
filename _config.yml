@@ -58,6 +58,7 @@ defaults:
     values:
       breadcrumbs: true
       title: "tag"
+      author_profile: true
   - scope:
       path: ""
       type: category
