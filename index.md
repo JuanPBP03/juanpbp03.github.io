@@ -39,7 +39,7 @@ author_profile: true
     {% endfor %}
   </div>
 </section>
-<hr style="border: none; border-top: 1px solid #444; margin: 2rem 0;">
+<hr style="margin: 2rem 0;">
 
 
 
