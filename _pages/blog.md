@@ -1,6 +1,7 @@
 ---
-layout: posts
+layout: collection
 title: Blog
+collection: posts
 author_profile: true
 permalink: /blog/
 ---

@@ -30,7 +30,7 @@ defaults:
       related: true
       show_date: true
       published: false
-      permalink: :categories/:title
+      permalink: blog/:title
 
   - scope:
       path: "_pages"
@@ -67,22 +67,16 @@ defaults:
 
 breadcrumbs: true
 
-category_archive:
-  type: jekyll-archives
-  path: categories/
 tag_archive:
   type: jekyll-archives
   path: /tags/
 
 jekyll-archives:
     enabled:
-      - categories
       - tags
     layouts:
-      category: archive-taxonomy
       tag: archive-taxonomy
     permalinks:
-      category: categories/:name/
       tag: tags/:name/
 
 
