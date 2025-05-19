@@ -11,6 +11,7 @@ header:
     - label: Download My Resume
       url: /assets/files/JuanPBP-Resume.pdf
 author_profile: true
+entries_layout: grid
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -35,7 +36,7 @@ author_profile: true
 <section class="grid__wrapper">
   <div class="entries-grid" style="clear: both; overflow: hidden;">
     {% for post in site.portfolio limit: 3 %}
-      {% include archive-single.html type="grid" %}
+      {% include archive-single.html type='grid' %}
     {% endfor %}
   </div>
 </section>
