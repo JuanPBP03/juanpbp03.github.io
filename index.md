@@ -1,14 +1,14 @@
 ---
 layout: posts
-title: "Welcome to my website!"
-tagline: "This site is powered by Jekyll, hosted  on GitHub Pages, and customized with Markdown, YAML, HTML, and Liquid, all version-controlled and deployed with GitHub Actions."
+title: "Hey, I'm Juan!"
+tagline: "I built this site to showcase my projects, explore new ideas, and share my thoughts. It's part blog, part portfolio, and 100% me."
 permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
-    - label: View on GitHub
+    - label: Site Repo
       url: https://github.com/juanpbp03/juanpbp03.github.io
-    - label: Download My Resume
+    - label: My Resume
       url: /assets/files/JuanPBP-Resume.pdf
 author_profile: true
 entries_layout: grid
