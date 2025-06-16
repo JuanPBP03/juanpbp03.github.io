@@ -59,12 +59,7 @@ defaults:
       breadcrumbs: true
       title: "tag"
       author_profile: true
-  - scope:
-      path: ""
-      type: category
-    values:
-      title: "category"
-      breadcrumbs: true
+
 
 breadcrumbs: true
 

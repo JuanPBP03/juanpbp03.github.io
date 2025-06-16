@@ -1,5 +1,15 @@
 ---
 title: When Learning Trumps Perfection
+published: true
+tags:
+    - software
+    - embedded
+    - firmware
+    - learning
+    - C/C++
+header:
+    teaser: assets/images/posts/spi-driver-journey/teaser.jpg
+classes: wide
 ---
 
 I've been diving into embedded driver development recently, specifically writing an SPI driver for STM32 microcontrollers. I've been following a course (MCU1 from FastBit Academy) for embedded driver development. The GPIO section was pretty structured, and by the time I got to SPI, I felt ready to take a bit more control and design my own API.
