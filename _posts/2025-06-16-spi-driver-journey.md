@@ -1,5 +1,6 @@
 ---
 title: When Learning Trumps Perfection
+exerpt: Writing SPI drivers and a lesson in keeping it simple when things get complicated
 published: true
 tags:
     - software
@@ -26,9 +27,10 @@ Looking at ST's HAL was overwhelming at first. It's comprehensive and extremely 
 
 I finally realized that instead of solving problems I was inventing them. I didn't need 90% of the flexibility I was designing for. The purpose of my SPI driver was to learn, not to be perfectly abstract and reusable. 
 
-This realization brought me back down to earth and it taught me this important concept:
+This realization brought me back down to earth and it reminded me of these two important concepts:
 
-- **YAGNI (You Ain’t Gonna Need It)**: Don't design for scenarios you might never encounter. Wait until there's an actual need before writing that code.
+- **YAGNI (You Ain’t Gonna Need It)**: Don't build features you don't actually need yet.
+- **KISS  (Keep It Simple, Stupid)**: Build the simplest version that works for your current problem. No extra layers, no unnecessary abstractions.
 
 I recently saw a comment from another embedded dev on reddit that summed this up perfectly:
 
