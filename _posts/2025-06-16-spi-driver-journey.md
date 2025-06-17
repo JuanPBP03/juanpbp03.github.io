@@ -24,7 +24,7 @@ Looking at ST's HAL was overwhelming at first. It's comprehensive and extremely 
 
 I finally realized that instead of solving problems I was inventing them. I didn't need 90% of the flexibility I was designing for. The purpose of my SPI driver was to learn, not to be perfectly abstract and reusable. 
 
-This realization brought me back down to earth. It taught me this important concept:
+This realization brought me back down to earth and it taught me this important concept:
 
 - **YAGNI (You Ain’t Gonna Need It)**: Don't design for scenarios you might never encounter. Wait until there's an actual need before writing that code.
 
@@ -34,11 +34,11 @@ I recently saw a comment from another embedded dev on reddit that summed this up
 
 This captures exactly what I experienced with my SPI driver development.
 
-I stepped back and decided to allow SPI driver to handle only what was necessary at that moment so that I could move on and learn the next thing. It didn't look like HAL but it was straightforward, functional, and easy to debug. Importantly, I could actually understand what each part was doing, and next time I can design a better architecture using what I've learned. 
+I stepped back and decided to allow the SPI driver to handle only what was necessary at that moment so that I could move on and learn the next thing. It wasn't comprehensive but it was straightforward, functional, and easy to debug. Importantly, I could actually understand what each part was doing, and next time I can design a better architecture using what I've learned. 
 
-Through this experience, I've learned something valuable about software development. Clean code and abstraction are important, but only if they actually help you solve your real problems. It also impacts project timelines and product development directly. Spending too much time designing for hypothetical scenarios delays essential learning and progress. Keeping the focus practical and immediate ensures that projects move forward efficiently, letting you respond better to actual needs and reducing unnecessary complexity.
+Through this experience, I've learned something valuable about software development. Clean code, abstraction, and reusability are important, but only if they actually help you solve your real problems. It also impacts project timelines and product development directly. Spending too much time designing for hypothetical scenarios delays essential learning and progress. Creating a plan with intention, sticking to it, and keeping the focus practical and immediate ensures that projects move forward efficiently, letting you respond better to actual needs and reducing unnecessary complexity.
 
-This experience also highlighted some gaps in my understanding of software architecture, state management, and general best practices. To address that, I've recently started reading "Making Embedded Systems: Design Patterns for Great Software." I'll be sharing what I learn as I go through it, hoping to fill in those gaps and become a better embedded developer. 
+This experience also highlighted some gaps in my understanding of software architecture, state management, and general best practices. To address that, I've recently started reading "Making Embedded Systems: Design Patterns for Great Software" by Elicia White. I'll be sharing what I learn as I go through it, hoping to fill in those gaps and become a better embedded developer. 
 
 I’ll probably rewrite this driver again, and again, but each iteration will be guided by the lessons of the previous one, and the actual requirements of the problem in front of me.
 
