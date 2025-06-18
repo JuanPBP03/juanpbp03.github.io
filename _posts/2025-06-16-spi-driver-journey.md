@@ -1,6 +1,6 @@
 ---
 title: When Learning Trumps Perfection
-exerpt: Writing SPI drivers and a lesson in keeping it simple when things get complicated
+excerpt: Writing SPI drivers and a lesson in keeping it simple when things get complicated
 published: true
 tags:
     - software
