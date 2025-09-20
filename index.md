@@ -35,7 +35,8 @@ entries_layout: grid
 <hr style="margin-top: 0;">
 <section class="grid__wrapper">
   <div class="entries-grid" style="clear: both; overflow: hidden;">
-    {% for post in site.portfolio limit: 3 %}
+    {% assign sorted_posts = site.portfolio | sort: 'date' | reverse %}
+    {% for post in sorted_posts limit: 3 %}
       {% include archive-single.html type='grid' %}
     {% endfor %}
   </div>

@@ -66,7 +66,7 @@ For the form factor, the pin headers are spaced to fit across a standard breadbo
 This is my **first PCB design**, and I threw myself into the deep end with RF. The design isn’t perfect, but every iteration has been a valuable learning step.
 
 <figure class="online_3d_viewer"
-    style="width: 600px; height: 400px;"
+    style="width: $max-width; height: 400px;"
     model="{{ '/assets/models/nrf.glb' | relative_url }}"
     backgroundcolor="37, 42, 52"
     environmentmap="{{ '/assets/js/o3dv/envmaps/citadella/posx.jpg' | relative_url }},
