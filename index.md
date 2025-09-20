@@ -41,7 +41,12 @@ entries_layout: grid
     {% endfor %}
   </div>
 </section>
-<hr style="margin: 2rem 0;">
+
+## All Content By Year
+
+<hr style="margin: 0.5rem 0;">
+
+
 
 
 
